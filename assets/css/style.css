@@ -126,7 +126,7 @@ nav ul li a {
     text-align: center;
     background: aqua;
     display: block;
-    margin-right: 199px;
+    margin-right: 44%;
     padding: 15px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -239,6 +239,11 @@ footer{
     .navname{
     }
 
+    .logos h3{
+        margin-right:29%;
+
+    }
+
 }
 @media only screen and (max-width: 768px){
     /* navbar */
@@ -254,6 +259,10 @@ footer{
 
 
     /* Portfolio page */
+    img{
+        width: 100%;
+        margin: 0;
+    }
     .logos{
         max-width: 100%;
         width: 100%;
@@ -262,8 +271,8 @@ footer{
 
     }
     .logos h3{
-        left: 27%;
-        margin-right: 54%;
+        left: 0px;
+        margin-right: 0px;
     }
 
     /* aboutme page */
@@ -306,9 +315,19 @@ footer{
         margin: 0;
     }
 
+    img{
+        width: 100%;
+        margin: 0px;
+
+
+
+    }
+
     .logos h3{
-        left: 19%;
-        margin-right: 38%;
+        left: 0;
+        margin-right: 0px;
+
+
     }
     
 }
