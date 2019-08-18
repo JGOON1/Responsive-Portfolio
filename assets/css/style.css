@@ -229,3 +229,86 @@ footer{
 
     
 }
+
+/* media query section */
+
+@media only screen and (max-width: 980px){
+    /* Portfolio page */
+
+    /* navbar */
+    .navname{
+    }
+
+}
+@media only screen and (max-width: 768px){
+    /* navbar */
+    .navname{
+        width: 100%;
+    }
+    nav{
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+
+    /* Portfolio page */
+    .logos{
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+    .logos h3{
+        left: 27%;
+        margin-right: 54%;
+    }
+
+    /* aboutme page */
+    .container-about{
+        margin-top: 175px;
+    }
+    h1{
+        text-align: center;
+    }
+    #head{
+        height: 300px;
+        width:100%;
+
+        
+
+    }
+    .abouttext{
+        display: inline-block;
+
+    }
+
+    /* contact me page */
+    .contactcontain{
+        margin-top: 175px;
+
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .navname{
+        width: 100%;
+    }
+    nav{
+        text-align: center;
+
+        width: 100%;
+
+    }
+    li{
+        margin: 0;
+    }
+
+    .logos h3{
+        left: 19%;
+        margin-right: 38%;
+    }
+    
+}
